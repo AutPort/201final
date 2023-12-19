@@ -1,0 +1,103 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(152, 162, 172);
+    background-color: rgb(225, 178, 193);
+}
+.homebg {
+    background-image: url('../assets/img/slate_bg.jpg');
+    background-color: #868181; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-size: auto;
+}
+.listheading {
+font-size: 40;
+font-weight: bolder;
+}
+.topmenu {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 80px;
+    z-index: 2;
+    padding-right: 4px;
+    position: absolute;
+    background-color: #292727e3;
+}
+.subheader {
+    float: right;
+    padding: 2px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 15px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    border: none;
+}
+/* links styling */
+a {
+    color: #F4B3E2;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20;   
+}
+a:visited {color: #A06D92;}
+.listheading {
+    font-weight: bolder;
+    font-style: normal;
+}
+/* somehow make the text in two columns?? */
+.tableauplaceholder {
+    border: 30px #868181;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #292727e3;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75;
+}
+
+/* columns */
+  .column {
+    float: left;
+    width: 50%;
+}
+    /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fancybg {
+    border-style: solid;
+    border-width: 15px;
+    border-color: #292727e3;
+    padding: 5px;
+}
+.oline {
+    background-color: solid;
+    background-color: #292727e3;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #292727e3;
+}
